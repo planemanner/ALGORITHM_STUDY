@@ -3,6 +3,11 @@
 
 ## Solved
   - Problem 785
-  - 
-## To try
   - Problem 542
+  - Problem 787
+  - Problem 74
+## To try
+  - Problem 45
+  
+    
+

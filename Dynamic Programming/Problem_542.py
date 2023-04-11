@@ -29,21 +29,38 @@ There is at least one 0 in mat.
 """
 
 
+from collections import deque
+
+
 class Solution:
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         m = len(mat)
         n = len(mat[0])
         # Diagonal direction is not allowed
         # termination condition : meet '0' component.
-        result = [[0] * n for _ in range(m)]
 
-        directions = [[0, -1], [0, 1], [-1, 0], [1, 0]]  # 좌, 우, 상, 하
+        DIR = [0, 1, 0, -1, 0]  # => memory optimization
 
-        def find_zero(i, j):
-            if mat[i][j] == 0:
-                return 0
+        q = deque([])
+        for r in range(m):
+            for c in range(n):
+                if mat[r][c] == 0:  # 일단 0 인 애들 다 넣기
+                    q.append((r, c))
+                else:  # 아닌 애들 이제 탐색할거 !
+                    mat[r][c] = -1  # Marked as not processed yet!
 
-        return result
+        while q:
+            r, c = q.popleft()  # 0 인 애들에서 Pop 을 하네...?
+            for i in range(4):
+                nr, nc = r + DIR[i], c + DIR[i + 1]  # Why ? 0, 1 / 1, 0 / 0, -1 / -1, 0
+                if nr < 0 or nr == m or nc < 0 or nc == n or mat[nr][nc] != -1:
+                    # Point 의 Validity Check
+                    continue
+                # Valid point r, c 에 대해
+                mat[nr][nc] = mat[r][c] + 1  # 0 에서 1번 움직여야 하니까. 1 추가
+                q.append((nr, nc))  # 이번 for 문에서 탐색한 친구이고 다음 대상 추가
+
+        return mat
 
 
 solver = Solution()
