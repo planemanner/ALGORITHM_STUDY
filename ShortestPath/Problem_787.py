@@ -68,6 +68,7 @@ class Solution:
         visited = set()
         while x:
             price, current_k, next_node = heapq.heappop(x)
+
             if next_node == dst:
                 return price
 
@@ -82,13 +83,14 @@ class Solution:
                 # 이 node 의 인접 노드를 추가 후, price 까지 update 해서 다음 방문 node 에 추가
                 heapq.heappush(x, (price + t_price, current_k + 1, t_n))
         # 만약 다 방문했는데도 길이 없으면 -1 반환
+
         return -1
 
 
 solver = Solution()
-# print(solver.findCheapestPrice(n=4, flights=[[0, 1, 100], [1, 2, 100], [2, 0, 100], [1, 3, 600], [2, 3, 200]],
-#                                src=0, dst=3, k=1))  # 700
-# print(solver.findCheapestPrice(n=3, flights=[[0, 1, 100], [1, 2, 100], [0, 2, 500]], src=0, dst=2, k=1))  # 200
-# print(solver.findCheapestPrice(n=3, flights=[[0, 1, 100], [1, 2, 100], [0, 2, 500]], src=0, dst=2, k=0))  # 500
-# print(solver.findCheapestPrice(n=2, flights=[[1, 0, 5]], src=0, dst=1, k=1))
+print(solver.findCheapestPrice(n=4, flights=[[0, 1, 100], [1, 2, 100], [2, 0, 100], [1, 3, 600], [2, 3, 200]],
+                               src=0, dst=3, k=1))  # 700
+print(solver.findCheapestPrice(n=3, flights=[[0, 1, 100], [1, 2, 100], [0, 2, 500]], src=0, dst=2, k=1))  # 200
+print(solver.findCheapestPrice(n=3, flights=[[0, 1, 100], [1, 2, 100], [0, 2, 500]], src=0, dst=2, k=0))  # 500
+print(solver.findCheapestPrice(n=2, flights=[[1, 0, 5]], src=0, dst=1, k=1))
 print(solver.findCheapestPrice(n=4, flights=[[0, 1, 1], [0, 2, 5], [1, 2, 1], [2, 3, 1]], src=0, dst=3, k=1))
