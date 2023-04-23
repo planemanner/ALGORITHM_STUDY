@@ -45,7 +45,7 @@ class Solution:
             v_p = find_parent(v)
             if u_p != v_p:
                 parent[v_p] = u_p
-
+        # 불완전한 구조
         for i in range(len(graph)):
             p_i = find_parent(i)
             for j in graph[i]:
@@ -53,6 +53,7 @@ class Solution:
                     # Since these nodes are adjacent, if those have same parent, it fails to make bipartite condition.
                     return False
                 union(graph[i][0], j)
+        print(parent)
         return True
 
 
