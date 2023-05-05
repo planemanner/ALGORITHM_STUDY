@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dda6424-becb-43d2-a641-2ad8c67da94e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/Problem_1334.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BFS/Problem_2642.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data_Structures/Graph/Problem_2641.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non_assigned/Problem_2639.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DFS/Problem_124.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dynamic Programming/Problem_198.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BFS/Problem_2101.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/Problem_2101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non_assigned/Problem_2101.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grapity.py" beforeDir="false" afterPath="$PROJECT_DIR$/grapity.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +43,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\ALGORITHM_STUDY\DFS" />
       <recent name="C:\Users\Administrator\Desktop\ALGORITHM_STUDY\Backtracking" />
       <recent name="C:\Users\Administrator\Desktop\ALGORITHM_STUDY\GreedyAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Problem_2641">
-    <configuration name="Problem_2639" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Problem_198">
+    <configuration name="Problem_124" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM_STUDY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +57,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Non_assigned" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Non_assigned/Problem_2639.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/Problem_124.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Problem_198" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ALGORITHM_STUDY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Problem_198.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problem_74" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem_785" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM_STUDY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,32 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Non_assigned" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Structures/Union_Find" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Non_assigned/Problem_74.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="grapity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ALGORITHM_STUDY" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grapity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Structures/Union_Find/Problem_785.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Problem_198" />
+        <item itemvalue="Python.Problem_124" />
+        <item itemvalue="Python.Problem_785" />
         <item itemvalue="Python.Problem_2641" />
         <item itemvalue="Python.Problem_2642" />
-        <item itemvalue="Python.Problem_2639" />
-        <item itemvalue="Python.grapity" />
-        <item itemvalue="Python.Problem_74" />
       </list>
     </recent_temporary>
   </component>

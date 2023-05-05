@@ -127,7 +127,7 @@ class Solution_DFS:
                 if child not in visit:
                     visit.add(child)
                     curDepth += dfs(child, visit)
-            print(curDepth)
+
             return curDepth
 
         for i in range(len(bombs)):

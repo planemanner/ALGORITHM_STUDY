@@ -6,6 +6,8 @@
     - Problem 39
     - Problem 45 
     - Problem 74
+    - Problem 124
+    - Problem 198
     - Problem 542
     - Problem 784 
     - Problem 785
@@ -19,7 +21,6 @@
   - Programmers
     - [2023 KAKAO BLIND RECRUITMENT Problem, LV2](https://school.programmers.co.kr/learn/courses/30/lessons/150369) 
 ## To try
-  - Biweekly 102
   - 비밀 지도
     - https://school.programmers.co.kr/learn/courses/30/lessons/17681 
   - 뉴스 클러스터링
