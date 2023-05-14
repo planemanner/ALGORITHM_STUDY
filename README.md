@@ -1,13 +1,24 @@
 # Algorithm Study 
   - Daily Objective : try to solve two problems in leetcode
-
+# Needed Points
+  - Mastering Recursion
+    - DFS, Greedy Algorithm, and etc... 
+  - Knapsack Algorithm 유형
+    - Unbounded Knapsack
+      - Brute Force 문제를 memoization 을 통해서 시간 감축...(그냥 하면 O(k^n)) 꼴...
+    - Naive Knapsack 은 쉬움.
+    - 
 ## Solved
   - LEET CODE
     - Problem 39
     - Problem 45 
     - Problem 74
     - Problem 124
+    - Problem 134
+      - 다시 볼 필요 있음
     - Problem 198
+    - Problem 334
+      - 다시 볼 필요 있음
     - Problem 542
     - Problem 784 
     - Problem 785
@@ -21,9 +32,14 @@
   - Programmers
     - [2023 KAKAO BLIND RECRUITMENT Problem, LV2](https://school.programmers.co.kr/learn/courses/30/lessons/150369) 
 ## To try
-  - 비밀 지도
-    - https://school.programmers.co.kr/learn/courses/30/lessons/17681 
-  - 뉴스 클러스터링
-    - https://school.programmers.co.kr/learn/courses/30/lessons/17677 
-    
-
+  - LEETCODE
+    - Problem 115
+    - Problem 279
+      - DP with String https://leetcode.com/list/50v8wybv/
+    - Problem 51
+      - Classical backtracking problem
+  - PROGRAMMERS
+    - 비밀 지도
+      - https://school.programmers.co.kr/learn/courses/30/lessons/17681 
+    - 뉴스 클러스터링
+      - https://school.programmers.co.kr/learn/courses/30/lessons/17677

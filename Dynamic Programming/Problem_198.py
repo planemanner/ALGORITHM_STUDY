@@ -50,15 +50,14 @@ class Solution:
             if maximum_robbing[i] >= 0:
                 return maximum_robbing[i]
             else:
-                # 7, 9 + 2,
                 return max(wis(i-1), nums[i] + wis(i-2))
 
-        for i in range(2, total_houses):
-            maximum_robbing[i] = wis(i)
+        for j in range(2, total_houses):
+            maximum_robbing[j] = wis(j)
 
         return maximum_robbing[-1]
 
 
-# solver = Solution()
-# print(solver.rob([2,7,9,3,1]))  # 12
-# print(solver.rob([2, 1, 1, 2]))  # 4
+solver = Solution()
+print(solver.rob([2, 7, 9, 3, 1]))  # 12
+print(solver.rob([2, 1, 1, 2]))  # 4
