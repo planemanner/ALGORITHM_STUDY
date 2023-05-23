@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dda6424-becb-43d2-a641-2ad8c67da94e" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/Backtracking/Problem_51.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/Problem_2452.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/Problem_279.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/Problem_518.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GreedyAlgorithm/Problem_134.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreedyAlgorithm/Problem_376.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backtracking/Problem_39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/Problem_39.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dynamic Programming/Problem_198.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dynamic Programming/Problem_198.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreedyAlgorithm/Problem_334.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreedyAlgorithm/Problem_334.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreedyAlgorithm/Problem_42.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GreedyAlgorithm/Problem_45.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grapity.py" beforeDir="false" afterPath="$PROJECT_DIR$/grapity.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
       <recent name="C:\Users\Administrator\Desktop\ALGORITHM_STUDY\GreedyAlgorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Problem_334">
+  <component name="RunManager" selected="Python.Problem_376">
     <configuration name="Problem_134" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM_STUDY" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problem_39" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem_376" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM_STUDY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GreedyAlgorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/Problem_39.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GreedyAlgorithm/Problem_376.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Problem_518" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="grapity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ALGORITHM_STUDY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +139,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Problem_518.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grapity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Problem_376" />
+        <item itemvalue="Python.grapity" />
         <item itemvalue="Python.Problem_334" />
         <item itemvalue="Python.Problem_134" />
         <item itemvalue="Python.Problem_2452" />
-        <item itemvalue="Python.Problem_518" />
-        <item itemvalue="Python.Problem_39" />
       </list>
     </recent_temporary>
   </component>
