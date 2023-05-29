@@ -10,6 +10,7 @@
     - 
 ## Solved
   - LEET CODE
+    - Problem 3 
     - Problem 39
     - Problem 45 
     - Problem 74
