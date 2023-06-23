@@ -29,7 +29,9 @@
     - Problem 787
     - Problem 886
     - Problem 1334
+    - Problem 1545
     - Problem 2101
+    - Problem 2405
     - Problem 2639 : Biweekly 102 Easy
     - Problem 2641 : Biweekly 102 Medium
     - Problem 2642 : Biweekly 102 Hard
@@ -37,11 +39,12 @@
     - [2023 KAKAO BLIND RECRUITMENT Problem, LV2](https://school.programmers.co.kr/learn/courses/30/lessons/150369) 
 ## To try
   - LEETCODE
+    - Problem 51
+      - Classical backtracking problem 
+    - Problem 76
     - Problem 115
     - Problem 279
       - DP with String https://leetcode.com/list/50v8wybv/
-    - Problem 51
-      - Classical backtracking problem
   - PROGRAMMERS
     - 비밀 지도
       - https://school.programmers.co.kr/learn/courses/30/lessons/17681 
